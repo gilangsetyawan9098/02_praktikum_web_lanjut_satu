@@ -22,6 +22,10 @@ Route::get('/about', function () {
     return ('2041720059 Gilang Setyawan');
 });
 
-Route::get('articles/{id}', function ($id) {
-    return "Halaman artikel dengan id : ".$id;
+Route::get('articles1/{id}', function ($id) {
+    return "Halaman artikel 1 dengan id : ".$id;
+});
+
+Route::get('articles2/{id}', function ($id) {
+    return "Halaman artikel 2 dengan id : ".$id;
 });
